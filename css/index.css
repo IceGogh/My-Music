@@ -1,0 +1,68 @@
+ul,li{ padding:0; margin:0;}
+.body{padding:0; margin:0; font-size:16px;}
+li{list-style: none;}
+img{ border:0;}
+.view-cont { width:100%;}
+.main-title{ background:#ce3d3e; color:#fff; height:56px; line-height:56px; position:relative; }
+.main-title span{font-size:2.2rem; margin-left: 7.5%;}
+.main-title .glyphicon{ position:absolute; right:7%; top:40%; }
+.main-navline{ text-align:center; height:48px; line-height:48px; font-size:1.3rem; color:#666; padding:0 .8rem;}
+.main-navline .row{ position:relative; padding:0;}
+.main-navline .row .btmline{color:#ce3d3e; }
+.main-navline .row .btmline:after{content:''; position:absolute; height:2px; width:100%; background:#ce3d3e; bottom:0; left:0; }
+.main-banner{ width:100%; height:25vh; overflow:hidden; }
+.main-banner ul{ width:100%; position:relative;}
+.main-banner ul li{ width:100%; height:25vh; position:absolute; top:0; left:0; }
+.main-banner ul li img{ width:100%;  }
+.main{ margin-top:5px; padding:0 0.8%;}
+.main .m-title{ height:38px; line-height:38px; font-size:1.3rem;}
+.main .m-title span{padding:0 .5rem;}
+.main .m-title .glyphicon{color:#ce3d3e; }
+.main .m-title a{color:#747482; font-size:1.1rem; float:right; padding:0 .8%;}
+.row{ padding: .8rem 0; width:100%; margin:0;}
+.row .pic{ margin-left:.8rem;}
+.row a{display:block; }
+.main .col-xs-4{padding:0 5px;}
+.main .col-xs-4 img{ width:100%;}
+.main .col-xs-4 p{font-size:1rem; line-height:1rem; height:2rem; overflow:hidden; margin:.6rem 0;}
+.bottom{ height:46px; width:100%; position:fixed; bottom:-48px; left:0; background: rgba(192, 192, 192, 0.7); display:none; opacity: 0;}
+.bottom .Timeline{ height:3px ; width:100%; background:#CECECE; position:absolute; top:-3px; left:0;}
+.bottom .Currentline{ height:3px ; width:0; background:red; position:absolute; top:-3px; left:0;}
+.bottom .pic{ float:left; height:46px; padding:3px; width:46px; overflow:hidden;}
+.bottom .pic img{width:100%;}
+.bottom .name{float:left; padding-left:.8rem; width:25%; color: #ff1e87;}
+.bottom  .name .song{ height:26px; line-height:26px; font-size:1rem;}
+.bottom .name .singer{ height:20px; line-height:20px; font-size:.6rem; }
+.bottom .control{ padding:0 1.5rem; float:right; height:46px; line-height:46px; color:#ce3d3e;}
+.bottom .control span{padding:0 .8rem; font-size:1.4rem; }
+.list-head{ width:100%; position:relative;}
+.list-headbg{height:100%; width:100%; position:absolute; z-index:-1;
+    -webkit-filter:blur(3px);
+    -ms-filter:blur(3px);
+    -o-filter:blur(3px);
+    -moz-filter:blur(3px);
+    filter:blur(3px);
+}
+.list-head .title{ height:56px; line-height:56px; color:#fff; background: rgba(255, 25, 23, 0.7);}
+.list-head .title i{ padding-left:7%;}
+.list-head .title>span>span{ padding-left:6%; font-size:2.2rem;}
+.list-head .row .pic img{ width:100%;}
+.list-head .row .picname img{ width:30px; border-radius:50%;}
+.list-head .picname{ background: rgba(47, 47, 47, 0.5) ; padding-top:1rem; box-shadow: 5px 10px 20px 5px rgba(47,47,47,.4);}
+.list-head .picname p{color:#fff; padding-left:.8rem; max-height:40px; word-break: break-all; overflow:hidden;}
+.list-head .picname p span{padding-left:.8rem;}
+.view-cont .playall{ height:6vh; line-height:6vh; padding-left:2rem; font-size:1.5vh; border-bottom:1px solid #eee;}
+.view-cont .songs{ position:relative; height:10vh; border-bottom:1px #eee solid; padding:1vh 0;}
+.view-cont .songs .nub{ height:8vh; width:8vh; text-align: center; float:left; line-height:10vh; color:#797674; }
+.view-cont .songs .musicname {margin:0 10vw;}
+.view-cont .songs .musicname .music{ height:5vh; font-size:2.5vh; line-height:5vh; overflow: hidden;}
+.view-cont .songs .musicname .singer{ height:3vh; font-size:1vh}
+
+.loading{ width:100vw; height:100%; background: rgba(107, 107, 107, 0.3);
+    position:fixed; top:0; left:0; z-index:50;
+}
+.loading img{width:28vw; height:28vw; border-radius:5px; position:fixed; top:50%; left:50%; margin:-14vw 0 0 -14vw;}
+.nextIng{width:28vw; height:28vw; border-radius:50%; position:fixed; top:50%; left:50%; margin:-14vw 0 0 -14vw;}
+.nextIng img{ width:100%; border-radius:50%; opacity:.6;}
+.playing{ color:red; }
+.playing:after { content:''; position:absolute; height:6vh; width:6vh; right:10px; top:2vh; background:url("../images/playing.gif") no-repeat center; background-size:cover;}
